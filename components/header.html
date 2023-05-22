@@ -1,0 +1,92 @@
+<div id="mySidenav" class="sidenav">
+    <a id="side-nav-close" onclick="closeNav()">&times;</a>
+
+    <div class="sidenav-content">
+
+        <a class="navbar-brand align-items-center" href="index.html"
+           style="padding-left: 0px;padding-right: 70px;padding-bottom: 30px">
+            <img src="../img/Kaylees-nails-logo-white.png" alt="#">
+        </a>
+        
+        <h5>Address</h5>
+        <p name="storeFullAddress"></p>
+        <h5>Tel</h5>
+        <a href="" name="storePhone" data-phone></a> <br>
+        <h5 >Email</h5>
+        <a style="font-size: 15px; font-weight: normal" href="mailto:pinknaillounge2019@gmail.com"> <p name="storeEmail"></p></a>
+        <h5>Hours</h5>
+        <span>
+            <span name="storeTime_1"></span> <br>
+            <span name="storeTime_2"></span> <br>
+            <span name="storeTime_3"></span> <br>
+            <span name="storeTime_4"></span> <br>
+            <span name="storeTime_5"></span> <br>
+        </span>
+        
+    </div>
+    
+</div>
+<nav id="navbar-header" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <!--mobile logo -->
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="index.html">
+            <img src="../img/Kaylees-nails-logo-white.png" alt="#">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu" onclick="openNav()"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    
+                </div>
+            </ul>
+
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="index.html">
+                <img src="../img/Kaylees-nails-logo.png" alt="#">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Services</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link" target=_blank href="https://www.google.com/localservices/prolist?spp=CgwvZy8xczA0Ym1kcXc%3D&scp=CgAaG1BpbmsgTmFpbCBMb3VuZ2UgJiBCb3V0aXF1ZSobUGluayBOYWlsIExvdW5nZSAmIEJvdXRpcXVl&q=Pink+Nail+Lounge+%26+Boutique&src=2&slp=UhQIARIQEg4iDC9nLzFzMDRibWRxdw#ts=3">Reviews</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link" href="promotions.html">Promotions</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="reservation.html">Contact</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        
+    </div>
+</nav>
+
+<!-- <div class="container sub-header pt-1 pb-1 px-0">
+    <div class="row justify-content-center m-0">
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="" role="button" data-phone><i class="fa fa-phone fa-flip-horizontal"></i><span class="text-button">CALL</span></a>
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="" role="button" data-booking><i class="fa fa-calendar"></i><span class="text-button">BOOK</span></a>
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="menu.html" role="button"><i class="fas fa-box"></i><span class="text-button">SERVICES</span></a>
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="promotions.html" role="button"><i class="fas fa-box"></i><span class="text-button">PROMOTIONS</span></a>
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="https://www.google.com/maps?um=1&fb=1&gl=vn&sa=X&geocode=KeV5SSAL3ECGMYMtaZRCKnsV&daddr=1460+Eldridge+Pkwy+%23100,+Houston,+TX+77077,+Hoa+K%E1%BB%B3&ved=2ahUKEwiQ6vmIz_X8AhVkxdQKHQCiCAcQiBN6BAgAEDE" role="button"><i class="fas fa-directions"></i><span class="text-button">DIRECTION</span></a>
+        <a class="btn btn-primary btn-shadow btn-lg-banner btn-header" target="_blank" href="https://www.google.com/localservices/prolist?spp=CgwvZy8xczA0Ym1kcXc%3D&scp=CgAaG1BpbmsgTmFpbCBMb3VuZ2UgJiBCb3V0aXF1ZSobUGluayBOYWlsIExvdW5nZSAmIEJvdXRpcXVl&q=Pink+Nail+Lounge+%26+Boutique&src=2&slp=UhQIARIQEg4iDC9nLzFzMDRibWRxdw#ts=3" role="button"><i class="fas fa-comment"></i><span class="text-button">REVIEW</span></a>
+    </div>
+</div> -->

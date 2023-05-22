@@ -1,0 +1,210 @@
+{
+  "info": {
+    "salon": {
+      "store"   : "Kaylees Nails",
+      "slug"    : "Kaylees-nails",
+      "phone"   : "(952) 388-1812",
+      "email"   : "huynhat1021@gmail.com",
+      "address" : "5480 141st St W Ste 140, Apple Valley, Minnesota 55124 ",
+      "state"   : "Minnesota 55124",
+      "ward"    : "Apple Valley",
+      "time_1"  : "Mon - Fri: 10:00 AM - 08:00 PM",
+      "time_2"  : "Sat: 09:30 AM - 06:00 PM",
+      "time_3"  : "Sun: 11:00 AM - 05:00 PM"
+    },
+
+    "social": {
+        "facebook"  :   "https://www.facebook.com/@Kaylee-Nails-100063653526086",
+        "instagram" :   "https://www.instagram.com/kayleesnails.applevalley",
+        "google"    :   "https://goo.gl/maps/tvtPTebuZJRhksMJA",
+        "booking"   :   "https://www.lldtek.com/salon/appt/NTk1MDR8a2F5bGVlODgyM3xNTl8wODgyM3w5NTJlYjBjNzRlMjc1MTY4NGQ3NDU3MzY2NzFmMzMyNQ==",
+        "maps"      :   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.810876740267!2d-93.17863462334859!3d44.74387508121034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f633422ee390a7%3A0x4ef8efdf55484b04!2sKaylees%20Nails!5e0!3m2!1sen!2s!4v1684491036104!5m2!1sen!2s"
+	},
+    "color": {
+        "primary"               :   "#ff847d",
+        "primary_light"         :   "#EEECE3",
+        "primary_hover"         :   "#fdd4d1",
+        "secondary"             :   "#fff991",
+        "secondary_hover"       :   "#fff886",
+        "text_primary"          :   "#FFFFFF",
+        "text_primary_hover"    :   "#FFFFFF",
+        "text_secondary"        :   "#FFFFFF",
+        "text_secondary_hover"  :   "#FFFFFF",
+        "text_title"            :   "#429D64",
+        "text_title_hover"      :   "#90C73E"
+    },
+    "debug": "on",
+    "path_image": "img/",
+    "domain": "https://kayleesnailsapplevalley.com"
+  },
+  "categories": [
+    {
+      "name": "PEDICURE",
+      "home": true,
+      "special": true,
+	  "src" : "Kaylees-nails-main-service-01.jpg"
+    },    
+    {
+      "name": "ARTIFICIAL NAILS ENHANCEMENT",
+      "home": true,
+      "special": true,
+	  "src" : "Kaylees-nails-main-service-02.jpg"
+    },    
+     {
+      "name": "NATURAL NAIL MANICURE",
+      "home": false,
+      "special": true,
+	  "src" : "Kaylees-nails-main-service-03.jpg"
+    }
+
+      
+  ],
+  "gallery": [
+    {
+      "name": "gallery-01",
+      "url": "Kaylees-nails-gallery-01.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-02",
+      "url": "Kaylees-nails-gallery-02.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-03",
+      "url": "Kaylees-nails-gallery-03.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-04",
+      "url": "Kaylees-nails-gallery-04.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-05",
+      "url": "Kaylees-nails-gallery-05.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-06",
+      "url": "Kaylees-nails-gallery-06.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-07",
+      "url": "Kaylees-nails-gallery-07.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-08",
+      "url": "Kaylees-nails-gallery-08.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-09",
+      "url": "Kaylees-nails-gallery-09.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-10",
+      "url": "Kaylees-nails-gallery-10.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-11",
+      "url": "Kaylees-nails-gallery-11.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-12",
+      "url": "Kaylees-nails-gallery-12.jpg",
+      "home": false
+    }
+  ],
+  "services": [
+    
+    {
+      "category": "PEDICURE",
+      "name": "Spa Pedicure",
+      "url": "",
+      "home": true,
+      "price": 40,
+      "plus": false
+    },
+    {
+      "category": "PEDICURE",
+      "name": "Hot Stone Massage & Spa Pedicure",
+      "url": "",
+      "home": true,
+      "price": 50,
+      "plus": false
+    },
+    {
+      "category": "PEDICURE",
+      "name": "Jelly Massage Luxury Pedicure",
+      "url": "",
+      "home": true,
+      "price": 65,
+      "plus": false
+    },
+    {
+      "category": "PEDICURE",
+      "name": "Hot Stone Massage & Clair Luxury Pedicure",
+      "url": "",
+      "home": true,
+      "price": 75,
+      "plus": false
+    },
+    {
+      "category": "PEDICURE",
+      "name": "Natural Organic Spa Pedicure",
+      "url": "",
+      "home": true,
+      "price": 70,
+      "plus": false
+    },
+    
+
+    {
+      "category": "ARTIFICIAL NAILS ENHANCEMENT",
+      "name": "Ombre Nail",
+      "url": "",
+      "home": false,
+      "price": 75,
+      "plus": true
+    },
+    {
+      "category": "ARTIFICIAL NAILS ENHANCEMENT",
+      "name": "Ombre Fill Pink",
+      "url": "",
+      "home": false,
+      "price": 50,
+      "plus": true
+    },
+    {
+      "category": "ARTIFICIAL NAILS ENHANCEMENT",
+      "name": "Acrylic Full Set",
+      "url": "",
+      "home": false,
+      "price": 40,
+      "plus": true
+    },
+    {
+      "category": "ARTIFICIAL NAILS ENHANCEMENT",
+      "name": "Acrylic Fill",
+      "url": "",
+      "home": false,
+      "price": 30,
+      "plus": true
+    },
+    {
+      "category": "ARTIFICIAL NAILS ENHANCEMENT",
+      "name": "Acrylic Overlay Gel",
+      "url": "",
+      "home": false,
+      "price": 55,
+      "plus": true
+    }
+
+  ]
+}
