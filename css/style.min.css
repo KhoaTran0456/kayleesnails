@@ -1059,6 +1059,7 @@ a:hover {
 @media (max-width: 767px) {
     .team-card .img-fluid {
         width: 100%;
+        box-shadow: 2px 1px 3px 0px;
     }
 
     .hero-left {
@@ -1072,6 +1073,7 @@ a:hover {
     }
     .team-card .img-fluid {
         width: 100%;
+        box-shadow: 2px 1px 3px 0px;
     }
     .testi-content .testi-text {
         /*padding: 30px 10% !important;*/
