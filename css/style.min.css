@@ -17,7 +17,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #774d57;
+    color: #000;
     overflow-x: hidden; /* fix for scroll when fixed-top*/
     /*background-color: #eabe77;*/
 }
@@ -98,7 +98,7 @@ h1, h2 {
     color: #fff;
   }
   .padding-swipper{
-    /* padding-top: 50px; */
+    padding-top: 50px;
   }
 
   .swiper-button-next, .swiper-button-prev{
@@ -111,7 +111,7 @@ h1, h2 {
 
 /* Sub Header   */
 .sub-header{
-    background: #c5dbc9;
+    background-color: #3bbc72;
     position: fixed;
     z-index: 99;
     max-width: 100%;
@@ -126,13 +126,13 @@ h1, h2 {
 }
 .sub-header .svg-inline--fa {
     width: 0.7em;
-    color: #bcef8d;
+    color: #fff;
 }
 .sub-header .btn-primary{
     padding: 5px 10px;
     border-radius: 5px;
-    background-image: linear-gradient( to right, #4f7655, #699d71) !important;
-    border-color: #7aa97f !important;
+    background-image: linear-gradient(0deg, #70f7b2, #108940, #70f7b2) !important;
+    border-color: #fff !important;
 }
 .sub-header a{
     margin: 5px;
@@ -141,7 +141,7 @@ h1, h2 {
 
 /* Right Box */
 #social-media{
-    background: #e18a7c !important;
+    background: #f8a751 !important;
     border-color: #d9776b !important;
     width: 130px;
     height: 50px;
@@ -243,17 +243,17 @@ h1, h2 {
     font-size: 16px;
     border-radius: 10px 10px 0 0;
     padding: 5px 15px;
-    background: #e18a7c !important;
-    border-color: #d9776b !important;
+    background: #f8a751 !important;
+    border-color: #f29325 !important;
 }
 
 
 .subheading {
-    color: #774d57;
+    color: #108940;
 }
 
 .bg-silver {
-    background-color: #fff8fb !important;
+    background-color: #f5fff9 !important;
     /* background-image: url('../img/Kaylees-nails-bg.jpg'); */
     padding-top: 100px;
     padding-bottom: 100px;
@@ -263,7 +263,7 @@ h1, h2 {
 
 .bg-white {
     /*background-color: #ffe492;*/
-    background-color: #ffeef4 !important;
+    background-color: #e9fff2 !important;
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -276,7 +276,7 @@ a {
     font-weight: 600;
 }
 .team-social-links a{
-    color: #997179;
+    color: #28ad61;
 }
 
 a:focus,
@@ -357,7 +357,7 @@ a:hover {
     padding: 10px;
 }
 .nav-link {
-    color: #774d57;
+    color: #000;
     font-weight: 400;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
@@ -378,7 +378,7 @@ a:hover {
 @media (min-width: 1024px) {
     #navbar-header {
         /* height: 120px; */
-        background-image: linear-gradient(90deg, #774d57, #ffe1ea, #774d57);
+        background-color: #70f7b2;
         border-bottom: 1px solid #000;
     }
     .sub-header{
@@ -420,7 +420,7 @@ a:hover {
 
 .btn-primary {
     display: inline-block;
-    background-color: #997179;
+    background-color: #28ad61;
     border-color: #000;
     color: #fff;
     border-radius: 15px;
@@ -542,7 +542,7 @@ a:hover {
     transition: all .5s ease;
     height: 100%;
     object-fit: cover;
-    border: 8px solid #997179;
+    border: 8px solid #28ad61;
     border-radius: 100%;
 }
 .price-title{
@@ -752,7 +752,7 @@ a:hover {
     z-index: 99999;
     top: 0;
     left: 0;
-    background-color: #997179;
+    background-color: #108940;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -941,7 +941,7 @@ a:hover {
 }
 
 #gtco-special-dishes h3 span {
-    color: #774d57;
+    color: #000;
 }
 
 .dishes-text {
@@ -1096,7 +1096,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color: #774d57 !important;
+    background-color: #108940 !important;
     border-color: #EFEFEF !important;
     color: white;
 }
@@ -1108,7 +1108,7 @@ a:hover {
 }
 
 .bg-coffee {
-    background: #2b181f !important;
+    background: #031409 !important;
     border-top: 1px solid #EFEFEF;
     padding-top: 100px;
 }
@@ -1117,14 +1117,14 @@ a:hover {
     font-weight: 500;
     font-size: 20px;
     padding: 10px 40px;
-    border: 2px solid #997179;
-    background: #997179 !important;
+    border: 2px solid #28ad61;
+    background: #28ad61 !important;
     color: #fff;
 
 }
 
 .booking-big:hover {
-    background: #774d57 !important;
+    background: #108940 !important;
     border: 2px solid #fff8fb !important;
     color: #fff;
 }
@@ -1148,7 +1148,7 @@ a:hover {
     }
 
     #navbar-header {
-        background-color: #997179;
+        background-color: #28ad61;
     }
 
     .lnr {
@@ -1175,7 +1175,7 @@ a:hover {
 
 .nav-link-footer:hover {
     color: #fff !important;
-    background: #997179;
+    background: #28ad61;
 }
 .nav-link-footer.no-bg{
     background: none;
@@ -1201,8 +1201,8 @@ a:hover {
 
 @media (max-width: 391px) {
     #navbar-header {
-        background-image: linear-gradient(to left, #c697a2, #774d57);
-        border-bottom: 1px solid #ffe1ea;
+        background-color: #3bbc72;
+        border-bottom: 1px double #000;
     }
 }
 
@@ -1274,15 +1274,15 @@ a:hover {
 
 
 .btn-lg-banner {
-    background-image: linear-gradient(0deg, #ffe1ea, #774d57, #774d57, #ffe1ea) !important;
+    background-image: linear-gradient(0deg, #70f7b2, #108940, #108940, #70f7b2) !important;
     border-color: #562f3a !important;
     color: #fff;
-    box-shadow: 0px 0px 8px 2px #ffe1ea;
+    box-shadow: 0px 0px 8px 2px #70f7b2;
 }
 .btn-lg-banner:hover {
-    background-image: linear-gradient(0deg, #774d57, #ffe1ea, #ffe1ea, #774d57) !important;
-    border-color: #774d57 !important;
-    color: #562f3a;
+    background-image: linear-gradient(0deg, #108940, #70f7b2, #70f7b2, #108940) !important;
+    border-color: #002d10 !important;
+    color: #002d10;
     font-weight: 600;
 }
 
@@ -1291,7 +1291,7 @@ a:hover {
 
 /*--------------------  css for hot mails ---------------*/
 .color-title{
-    color: #997179;
+    color: #28ad61;
 }
 .display-5{
     color: #333;
@@ -1513,7 +1513,7 @@ a:hover {
     line-height: 60px;
     border-radius: 50%;
     text-align: center;
-    background-color: #997179 ;
+    background-color: #28ad61 ;
     color: #fff;
     font-size: 30px;
     box-shadow: 0 4px 8px rgba(154, 159, 151, 0.6);
@@ -1523,7 +1523,7 @@ a:hover {
 .card-doctor .header .meta a:hover {
     text-decoration: none;
     background-color: #fff;
-    color: #997179;
+    color: #28ad61;
 }
 
 .card-doctor .header img {
