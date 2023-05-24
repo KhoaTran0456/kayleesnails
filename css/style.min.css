@@ -111,7 +111,7 @@ h1, h2 {
 
 /* Sub Header   */
 .sub-header{
-    background-color: #3bbc72;
+    background-color: #2daa5f;
     position: fixed;
     z-index: 99;
     max-width: 100%;
@@ -131,7 +131,7 @@ h1, h2 {
 .sub-header .btn-primary{
     padding: 5px 10px;
     border-radius: 5px;
-    background-image: linear-gradient(0deg, #70f7b2, #108940, #70f7b2) !important;
+    background-image: linear-gradient(0deg, #3dc175, #108940, #3dc175) !important;
     border-color: #fff !important;
 }
 .sub-header a{
@@ -357,7 +357,7 @@ a:hover {
     padding: 10px;
 }
 .nav-link {
-    color: #000;
+    color: #fff;
     font-weight: 400;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
@@ -378,7 +378,7 @@ a:hover {
 @media (min-width: 1024px) {
     #navbar-header {
         /* height: 120px; */
-        background-color: #70f7b2;
+        background-color: #2daa5f;
         border-bottom: 1px solid #000;
     }
     .sub-header{
@@ -1201,7 +1201,7 @@ a:hover {
 
 @media (max-width: 391px) {
     #navbar-header {
-        background-color: #3bbc72;
+        background-color: #2daa5f;
         border-bottom: 1px double #000;
     }
 }
@@ -1277,7 +1277,7 @@ a:hover {
     background-image: linear-gradient(0deg, #70f7b2, #108940, #108940, #70f7b2) !important;
     border-color: #562f3a !important;
     color: #fff;
-    box-shadow: 0px 0px 8px 2px #70f7b2;
+    box-shadow: 0px 0px 8px 2px #3dc175;
 }
 .btn-lg-banner:hover {
     background-image: linear-gradient(0deg, #108940, #70f7b2, #70f7b2, #108940) !important;
