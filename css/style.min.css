@@ -112,7 +112,7 @@ h1, h2 {
 /* Sub Header   */
 .sub-header{
     /* background-color: #2daa5f; */
-    background-image: url('/img/Head-bg-02.jpg');
+    background-image: url('../img/Head-bg-02.jpg');
     position: fixed;
     z-index: 99;
     max-width: 100%;
@@ -1203,7 +1203,7 @@ a:hover {
 @media (max-width: 391px) {
     #navbar-header {
         /* background-color: #2daa5f; */
-        background-image: url('/img/Head-bg-01.jpg');
+        background-image: url('../img/Head-bg-01.jpg');
         border-bottom: 1px double #2daa5f;
     }
 }
