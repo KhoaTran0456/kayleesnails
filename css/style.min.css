@@ -111,7 +111,8 @@ h1, h2 {
 
 /* Sub Header   */
 .sub-header{
-    background-color: #2daa5f;
+    /* background-color: #2daa5f; */
+    background-image: url('/img/Head-bg-02.jpg');
     position: fixed;
     z-index: 99;
     max-width: 100%;
@@ -973,7 +974,7 @@ a:hover {
         top: 0;
         height: auto;
         width: 100%;
-        background-color: #20160a;
+        background-image: url('../img/Head-bg-01.jpg');
         z-index: 100;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -1152,7 +1153,7 @@ a:hover {
     }
 
     .lnr {
-        color: #fff;
+        color: #07722d;
     }
 
     .lnr-chevron-left, .lnr-chevron-right {
@@ -1201,8 +1202,9 @@ a:hover {
 
 @media (max-width: 391px) {
     #navbar-header {
-        background-color: #2daa5f;
-        border-bottom: 1px double #000;
+        /* background-color: #2daa5f; */
+        background-image: url('/img/Head-bg-01.jpg');
+        border-bottom: 1px double #2daa5f;
     }
 }
 
